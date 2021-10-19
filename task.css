@@ -1,0 +1,71 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+@keyframes jump {
+  from {
+    transform: translateY(40%);
+    -webkit-transform: translateY(40%);
+    -moz-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    -o-transform: translateY(40%);
+  }
+
+  80% {
+    transform: translateY(-30%);
+    -webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    -o-transform: translateY(-30%);
+  }
+}
+
+@keyframes jumpBody {
+  from {
+    transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -o-transform: translateY(15%);
+}
+
+  80% {
+    transform: translateY(-15%);
+    -webkit-transform: translateY(-15%);
+    -moz-transform: translateY(-15%);
+    -ms-transform: translateY(-15%);
+    -o-transform: translateY(-15%);
+}
+}
+
+.head {
+  animation: jump 1s infinite;
+  -webkit-animation: jump 1s infinite;
+}
+
+.body {
+  animation: jumpBody 1s infinite;
+  -webkit-animation: jumpBody 1s infinite;
+}
+
+.left.hand {
+  animation: jump 1s infinite;
+  -webkit-animation: jump 1s infinite;
+}
+
+.right.hand {
+  animation: jump 1s infinite;
+  -webkit-animation: jump 1s infinite;
+}
+
+.left.foot {
+  animation: jump 1s infinite;
+  -webkit-animation: jump 1s infinite;
+}
+
+.right.foot {
+  animation: jump 1s infinite;
+  -webkit-animation: jump 1s infinite;
+}
